@@ -84,6 +84,7 @@ body{
     width: 50%;
     margin: 0 auto;
 }
+
 .parametro-senha-botoes{
     display: flex;
     justify-content: center;
@@ -104,6 +105,7 @@ body{
     margin: 0;
     font-size: 24px;
 }
+
 label{
     font-size: 20px;
 }
@@ -113,6 +115,7 @@ label{
     height: 20px;
     cursor: pointer;
 }
+
 .barra{
     background-color: var(--fundo-senha);
     height: 30px;
@@ -141,9 +144,9 @@ label{
     justify-content: space-between;
 }
 
+
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
     }
-
 }
